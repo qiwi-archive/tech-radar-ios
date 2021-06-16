@@ -1,13 +1,13 @@
-# common-tech-radar
+# tech-radar-ios
 
-[Визуализация наших технологических решений](https://github.qiwi.com/pages/common/tech-radar/)
+Визуализация наших технологических решений
 
 ## Getting Started
 
 ### 1. Clone this Repository
 
 ```
-git clone https://github.com/tech-radar-ios.git tech-radar-ios
+git clone https://github.com/qiwi/tech-radar-ios.git tech-radar-ios
 ```
 
 
