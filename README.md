@@ -8,8 +8,8 @@
 ## 🧑🏼‍💻 Development
 | | Command |
 |---|---
-| Install | `npm install`
+| Install | `yarn install`
 | Edit | Specifically have a look at `.eleventy.js` to see if you want to configure
-| Build | `npx eleventy` or `npm run build`
-| Preview | `npx eleventy --serve`
-| Debug | `DEBUG=* npx eleventy`
+| Build | `yarn build` or just `eleventy`
+| Preview | `eleventy --serve`
+| Debug | `DEBUG=* eleventy`
