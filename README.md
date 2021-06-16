@@ -1,7 +1,44 @@
-# blank-ts-repo
-Template repository for TS OSS projects
+# common-tech-radar
 
-[![Build Status](https://travis-ci.com/qiwi/blank-ts-repo.svg?branch=master)](https://travis-ci.com/qiwi/blank-ts-repo)
-[![David](https://img.shields.io/david/dev/qiwi/blank-ts-repo?label=deps)](https://david-dm.org/qiwi/blank-ts-repo?type=dev)
-[![Maintainability](https://api.codeclimate.com/v1/badges/0669264f60889955c31c/maintainability)](https://codeclimate.com/github/antongolub/blank-ts-repo/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/0669264f60889955c31c/test_coverage)](https://codeclimate.com/github/antongolub/blank-ts-repo/test_coverage)
+[Визуализация наших технологических решений](https://github.qiwi.com/pages/common/tech-radar/)
+
+## Getting Started
+
+### 1. Clone this Repository
+
+```
+git clone https://github.com/tech-radar-ios.git tech-radar-ios
+```
+
+
+### 2. Navigate to the directory
+
+```
+cd tech-radar-ios
+```
+
+Specifically have a look at `.eleventy.js` to see if you want to configure any Eleventy options differently.
+
+### 3. Install dependencies
+
+```
+npm install
+```
+
+### 4. Edit
+
+### 5. Run Eleventy
+
+```
+npx eleventy
+```
+
+Or build and host locally for local development
+```
+npx eleventy --serve
+```
+
+Or in debug mode:
+```
+DEBUG=* npx eleventy
+```
