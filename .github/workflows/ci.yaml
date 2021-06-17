@@ -40,8 +40,10 @@ jobs:
         with:
           name: artifact-${{ github.run_id }}
           retention-days: 1
+          # need to add any root level file to prevent common dirname part trimming
           path: |
             dist
+            README.md
 
   test:
     needs: build
@@ -89,3 +91,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          commit_message: "docs: update tech-radar static"
+          allow_empty_commit: true
+          enable_jekyll: false
