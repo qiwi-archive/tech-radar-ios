@@ -1,4 +1,0 @@
----
-ring: trial
----
-Analytics framework

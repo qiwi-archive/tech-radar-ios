@@ -1,4 +1,0 @@
----
-ring: adopt
----
-Bug tracker

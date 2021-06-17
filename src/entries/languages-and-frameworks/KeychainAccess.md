@@ -1,4 +1,0 @@
----
-ring: adopt
----
-Keychain framework
