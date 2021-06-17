@@ -1,4 +1,4 @@
 ---
-ring: trial
+ring: assess
 ---
 Креш трекер
