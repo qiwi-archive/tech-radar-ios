@@ -1,4 +1,4 @@
 ---
-ring: assess
+ring: adopt
 ---
 Креш трекер
