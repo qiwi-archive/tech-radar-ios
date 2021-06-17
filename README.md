@@ -1,44 +1,15 @@
-# tech-radar-ios
+# @qiwi/tech-radar-ios
 
-Визуализация наших технологических решений
+Визуализация наших технологических решений iOS
 
-## Getting Started
+## 📡 [Radar](https://qiwi.github.io/tech-radar-ios/)
+[qiwi.github.io/tech-radar-ios](https://qiwi.github.io/tech-radar-ios/)
 
-### 1. Clone this Repository
-
-```
-git clone https://github.com/qiwi/tech-radar-ios.git tech-radar-ios
-```
-
-
-### 2. Navigate to the directory
-
-```
-cd tech-radar-ios
-```
-
-Specifically have a look at `.eleventy.js` to see if you want to configure any Eleventy options differently.
-
-### 3. Install dependencies
-
-```
-npm install
-```
-
-### 4. Edit
-
-### 5. Run Eleventy
-
-```
-npx eleventy
-```
-
-Or build and host locally for local development
-```
-npx eleventy --serve
-```
-
-Or in debug mode:
-```
-DEBUG=* npx eleventy
-```
+## 🧑🏼‍💻 Development
+| | Command |
+|---|---
+| Install | `yarn install`
+| Edit | Specifically have a look at `.eleventy.js` to see if you want to configure
+| Build | `yarn build` or just `eleventy`
+| Preview | `eleventy --serve`
+| Debug | `DEBUG=* eleventy`

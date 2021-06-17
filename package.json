@@ -1,8 +1,10 @@
 {
-  "name": "common-tech-radar",
+  "name": "@qiwi/tech-radar-ios",
   "version": "1.0.0",
+  "main": "",
   "scripts": {
-    "build": "eleventy",
+    "test": "eslint",
+    "build": "eleventy && touch dist/.nojekyll",
     "start": "eleventy --serve",
     "load": "node loader.js",
     "debug": "DEBUG=* eleventy"
@@ -11,6 +13,9 @@
     "@11ty/eleventy": "^0.12.1",
     "csv-parse": "^4.12.0",
     "html-minifier": "^4.0.0",
-    "terser": "^5.3.7"
+    "terser": "^5.3.7",
+    "eslint": "^7.28.0",
+    "eslint-config-qiwi": "^1.13.1",
+    "typescript": "*"
   }
 }
