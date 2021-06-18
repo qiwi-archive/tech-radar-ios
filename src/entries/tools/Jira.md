@@ -1,4 +1,4 @@
 ---
-ring: hold
+ring: adopt
 ---
 Bug tracker
