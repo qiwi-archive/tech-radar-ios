@@ -60,7 +60,7 @@ function radar_visualization(config) {
     { x: 450, y: 90 },
     { x: -675, y: 90 },
     { x: -675, y: -310 },
-    { x: 450, y: -510 },
+    { x: 450, y: -410 },
   ];
 
   function polar(cartesian) {
